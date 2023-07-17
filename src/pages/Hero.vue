@@ -148,6 +148,12 @@ button {
 }
 
 @media (max-width: 575.98px) {
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
   .title {
     margin-bottom: 1rem;
     font-size: 2rem;
