@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from "vue";
+import Button from "../components/Button.vue";
 
 const informations = ref([
   {
@@ -87,7 +88,7 @@ const links = ref([
       we present a variety of digital services that can help you solve problems
       in your business
     </p>
-    <button>Get Started -></button>
+    <Button text="Get Started ->" />
     <div class="position-absolute px-5">
       <img src="../assets/hehe.png" alt="hehe" />
       <div class="row text-black">
