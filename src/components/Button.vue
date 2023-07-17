@@ -1,6 +1,5 @@
 <script setup>
 const text = defineProps(["text"]);
-console.log(text.text);
 </script>
 
 <template>
