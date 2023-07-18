@@ -4,4 +4,23 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
 import "@popperjs/core/dist/umd/popper.js";
 
-createApp(App).mount("#app");
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { faArrowRight, faBars } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebook,
+  faInstagram,
+  faTwitter,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+
+library.add(
+  faArrowRight,
+  faBars,
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+  faTwitter
+);
+
+createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");

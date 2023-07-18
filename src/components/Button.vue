@@ -3,7 +3,10 @@ const text = defineProps(["text"]);
 </script>
 
 <template>
-  <button>{{ text.text }}</button>
+  <button>
+    {{ text.text }}
+    <font-awesome-icon :icon="['fas', 'arrow-right']" />
+  </button>
 </template>
 
 <style scoped>

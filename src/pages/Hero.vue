@@ -63,7 +63,9 @@ const links = ref([
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="text-white">Menu</span>
+        <span class="text-white"
+          ><font-awesome-icon :icon="['fas', 'bars']"
+        /></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav gap-4">
@@ -88,7 +90,7 @@ const links = ref([
       we present a variety of digital services that can help you solve problems
       in your business
     </p>
-    <Button text="Get Started ->" />
+    <Button text="Get Started" />
     <div class="position-absolute px-5">
       <img src="../assets/hehe.png" alt="hehe" />
       <div class="row text-black">

@@ -17,7 +17,7 @@ import Button from "../components/Button.vue";
           we are <br />
           always here for you
         </p>
-        <Button text="Contact Us ->" />
+        <Button text="Contact Us" />
       </div>
     </div>
   </div>
