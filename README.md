@@ -1,7 +1,51 @@
-# Vue 3 + Vite
+# Bubble Bush Slicing
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Ini adalah sebuah project yang saya ambil dari codedesign.dev dengan mengambil salah satu UI pada website tersebut yang dapat dilihat pada [codedesign.dev/bubble-bush](https://codedesign.dev/challenge/bubble-bash)
 
-## Recommended IDE Setup
+## Syarat yang diperlukan
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Nodejs : v.14+
+
+## Cara Instalasi
+
+1. Clone dulu pada terminal( cmd / git bash ) untuk project
+
+```
+git clone https://github.com/hlkgt/bubble-bush-slicing.git
+```
+
+2. Pindah ke direktori file, yang telah di clone
+
+```
+cd bubble-bush-slicing
+```
+
+3. Install module pendukung
+
+```
+npm install
+```
+
+4. Jalankan server local
+
+```
+npm run dev
+```
+
+Untuk merubah tampilan maupun gambar, dapat dilakukan melalui folder src/App.vue atau src/pages/\*.vue
+
+## Cara Deploy
+
+1. Jalankan perintah build
+
+```
+npm run build
+```
+
+2. Secara otomatis vite akan membuatkan folder baru dengan nama "dist"
+
+3. Aplikasi yang telah anda perbarui dapat secara langsung diupload kedalam server
+
+
+Terima Kasih!!!
+## LeoMarselio
